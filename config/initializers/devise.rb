@@ -1,1 +1,3 @@
-Devise.secret_key = "456d48196e4ca7070e2de251a1753b24126f0f8c83895cc34d0910a2db76b3dadef2d6c503e75694c4ec55342b7985633315"
+# frozen_string_literal: true
+
+Devise.secret_key = SecureRandom.hex(50).inspect

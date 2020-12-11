@@ -5,7 +5,7 @@
 // the compiled file.
 //
 //= require jquery
-//= require jquery_ujs
+//= require rails-ujs
 //= require spree/backend
-
 //= require_tree .
+//= require spree/backend/solidus_paypal_commerce_platform

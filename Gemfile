@@ -28,10 +28,8 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-# Spree gems
-gem 'spree', '~> 4.1'
-gem 'spree_auth_devise', '~> 4.2'
-gem 'spree_gateway', '~> 3.9'
+# Solidus
+gem 'solidus'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -57,3 +55,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'solidus_auth_devise'
+gem 'solidus_paypal_commerce_platform'
